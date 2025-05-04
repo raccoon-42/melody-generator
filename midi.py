@@ -17,7 +17,7 @@ def create_midi_file(melody, chords, beats_per_bar=music.BEATS_PER_BAR, REST=mus
 
 	# Generate filename with timestamp
 	timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-	filename = os.path.join(output_folder, f"melodie_{timestamp}.mid")
+	filename = os.path.join(output_folder, f"melody_{timestamp}.mid")
 
 	mid = MidiFile()
 	melody_track = MidiTrack()
