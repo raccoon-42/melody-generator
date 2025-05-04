@@ -26,7 +26,7 @@ This project generates musical melodies using a genetic algorithm approach. It t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/melody-generator.git
+git clone https://github.com/raccoon-42/melody-generator.git
 cd melody-generator
 ```
 
